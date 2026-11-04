@@ -1,0 +1,17 @@
+# Bảo mật khóa API cá nhân (Tuyệt đối không đẩy file .env lên GitHub Public)
+.env
+*.env.local
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+
+# IDE & OS files
+.vscode/settings.json
+.idea/
+.DS_Store
+Thumbs.db
