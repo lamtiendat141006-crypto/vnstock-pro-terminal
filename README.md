@@ -46,24 +46,3 @@ cp .env.example .env
 python server_localhost.py
 ```
 Trình duyệt sẽ tự động mở tại địa chỉ **`http://localhost:8080`**.
-
----
-
-## 💼 Gợi ý Mô tả Dự án trong CV (Ready-to-Use CV Bullet Points)
-
-Bạn có thể sao chép trực tiếp phần mô tả dưới đây vào mục **Projects (Dự án cá nhân / Dự án học thuật)** trong CV ứng tuyển các vị trí **Data Analyst, Financial Data Scientist, Quantitative Developer, FinTech Software Engineer**:
-
-### Bản Tiếng Việt (Dành cho CV Tiếng Việt)
-**VNStock Pro Terminal — Nền tảng Phân tích Kỹ thuật & Khai phá Dữ liệu Chứng khoán Việt Nam**
-*Vai trò: Full-stack FinTech Developer & Data Analyst | Công nghệ: Python, JavaScript (ES6+), HTML5 Canvas, Tailwind CSS, SSI FastConnect REST API, CafeF EOD*
-- **Xây dựng Pipeline ETL & Làm sạch dữ liệu tài chính**: Thu thập và chuẩn hóa hơn 600+ bản ghi EOD từ CafeF và SSI FastConnect API (100% rổ VN30 và các mã dẫn đầu HOSE/HNX/UPCOM); thiết kế thuật toán tự động phát hiện và hiệu chỉnh nhảy giá do chia tách cổ phiếu/cổ tức (Corporate Action Adjustment), loại bỏ nhiễu dữ liệu cho mô hình định lượng.
-- **Phát triển Giao diện Biểu đồ TradingView & Bản đồ nhiệt (Treemap Heatmap)**: Lập trình trực tiếp engine đồ thị đa khung bằng HTML5 Canvas (Nến Nhật, Heikin-Ashi, OHLC, Volume, Fibonacci, SMA/EMA, Bollinger Bands, RSI, MACD) và bản đồ nhiệt dòng tiền theo nhóm ngành chuẩn bảng điện tử HOSE.
-- **Triển khai Thuật toán Học máy Tài chính (Financial Machine Learning)**: Cài đặt thuật toán phân cụm không giám sát **K-Means** phân loại cổ phiếu theo Khẩu vị Rủi ro – Lợi suất – Thanh khoản, bộ quét bất thường **Z-Score Volume Breakout**, và **Ma trận tương quan Pearson** phục vụ tối ưu hóa danh mục đầu tư.
-- **Thiết kế Kiến trúc Reverse Proxy & Tự động hóa CI/CD**: Xây dựng máy chủ Python Localhost tích hợp CORS Relay bảo mật khóa RSA/API qua biến môi trường (`.env`) và triển khai tự động Live Demo qua GitHub Pages.
-
-### English Version (For International / English Resume)
-**VNStock Pro Terminal — Real-Time Vietnamese Equity Analytics & Financial Machine Learning Platform**
-*Role: FinTech Developer & Quantitative Data Analyst | Stack: Python, Vanilla JS, HTML5 Canvas, Tailwind CSS, SSI FastConnect API v2.0*
-- **Engineered Financial EOD ETL & Corporate Action Pipeline**: Processed 600+ verified EOD records across 64+ Vietnamese equities (100% of the VN30 index basket) from CafeF and SSI FastConnect API; implemented automated split/dividend adjustment factors to eliminate artificial price gaps.
-- **Built Custom Multi-Pane TradingView Chart Engine & Sector Treemap**: Developed a dependency-free HTML5 Canvas charting engine supporting Candlesticks, Heikin-Ashi, interactive Fibonacci/Trendline overlays, and 8+ technical indicators alongside a real-time HOSE/HNX/UPCOM market liquidity heatmap.
-- **Implemented In-Browser Financial Machine Learning Suite**: Deployed **K-Means Clustering** (Risk-Return-Liquidity regime segmentation), **Z-Score Anomaly Detection** for institutional volume breakouts, and a **Multi-Asset Pearson Correlation Matrix** for portfolio risk analysis.
